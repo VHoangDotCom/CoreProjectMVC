@@ -1,0 +1,67 @@
+1. Create Project => Change Authentication => Individual User Accounts
+
+2. Cài đặt thư viện thông qua Nuget package.
+Microsoft.AspNet.Identity.Owin (2.2.3)
+Microsoft.AspNet.Identity.EntityFramework (2.2.3)
+Microsoft.Owin.Host.SystemWeb (4.2.0)
+
+3. Login by GG Account 
+Create Google Prject (link: https://docs.microsoft.com/en-us/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-app-with-facebook-and-google-oauth2-and-openid-sign-on
+ ( link GG App for OAuth 2 : https://console.cloud.google.com/apis/dashboard?project=my-project-vhoang
+ Search Credentials => Create Goolge Project Oath (if not exists)
+ Search Credentials => Create Project
+ CustomerID : 633720633677-05hnu4djcu6ad5hntnsd7l7lmq3vhsa0.apps.googleusercontent.com
+ Customer secret code : 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
+
+4. App_Start/Startup.Auth.cs
+ Disable comment from 61->65 (ClientId , ClientSecret in Json File)
+
+5. Add some Entity to User
+Model/IdentityModel.cs =>  public class ApplicationUser : IdentityUser
+
+6. Set entity in Login
+Model/AccountViewModel.cs =>  public class ExternalLoginConfirmationViewModel
+Views/Account/ExternalLoginConfirmationViewModel.cshtml => add entity
+
+7. Run 3 statements
+Enable-Migrations
+Add-Migration Init
+Update-Database
+
+8. Login by Facebook
+https://developers.facebook.com/
+https://docs.microsoft.com/en-us/aspnet/core/security/authentication/social/facebook-logins?view=aspnetcore-6.0
+
+Ứng dụng của tôi -> Tạo ứng dụng -> Chọn thể loại -> Nhập thông tin Project
+-> Đăng nhập bằng Facebook -> Web -> URL(localhost)
+
+9. App_Start/Startup.Auth.cs
+ Disable comment from 56-59(appId , appSecret)
+ 1111416416347615 | eb3dd10ae3cbbb91cad544e49c4ae9cd
+
+10. Secure MVC with login, email confirmation, password reset
+https://docs.microsoft.com/en-us/aspnet/mvc/overview/security/create-an-aspnet-mvc-5-web-app-with-email-confirmation-and-password-reset
+ Install-Package SendGrid
+
+11. Add code to App_Start/IdentityConfig.cs
+( Need to fix bug )
+
+12. Add SendEmailConfirmationTokenAsync in Controllers\AccountController.cs
+SendGrid Account : viethoang2001gun@gmail.com
+emgathoi12345678
+
+13. SMS and Email 2-Factor Authentication (with Twilio)
+https://docs.microsoft.com/en-us/aspnet/mvc/overview/security/aspnet-mvc-5-app-with-sms-and-email-two-factor-authentication
+Twilio account : viethoang2001gun@gmail.com
+emgathoi12345678
+Twilio : https://console.twilio.com/?frameUrl=%2Fconsole%3Fx-target-region%3Dus1&newCustomer=true
+  Account SID : AC579f08bbb53ee9293d8d561ebc600689
+  Auth Token : e5b7210aaf260f747ce6652ebbf8a09d
+  Phone Number: +17622525326
+
+14. Install-Package Twilio
+
+15. AddKey in Web.config
+
+16. Configure the SmsService class in the App_Start\IdentityConfig.cs file.
+Bug ( Username in Init)

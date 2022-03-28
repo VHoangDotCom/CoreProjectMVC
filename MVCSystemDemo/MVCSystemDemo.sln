@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.32002.261
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCSystemDemo", "MVCSystemDemo\MVCSystemDemo.csproj", "{5703379D-9D6E-4A5F-A629-AF215FBB83D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeProject", "FacadeProject\FacadeProject.csproj", "{C9A914CD-A08C-4BB7-BAF2-74B598A866FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{5703379D-9D6E-4A5F-A629-AF215FBB83D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5703379D-9D6E-4A5F-A629-AF215FBB83D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5703379D-9D6E-4A5F-A629-AF215FBB83D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A914CD-A08C-4BB7-BAF2-74B598A866FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A914CD-A08C-4BB7-BAF2-74B598A866FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A914CD-A08C-4BB7-BAF2-74B598A866FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A914CD-A08C-4BB7-BAF2-74B598A866FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "ThogMXqw4Xb7RkSNlX/hmhjLsHv0gmYebCljuJgYNGX/D2k/ani9RbPq8x9EPosHeyM8A/2aBtdC8PIJeUhSYw==",
+  "success": true,
+  "projectFilePath": "D:\\epc\\Ap-Sem3\\Web Application Development\\Core Projects\\AuthenticationSystemDemo\\Send\\Send.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\rabbitmq.client\\6.2.4\\rabbitmq.client.6.2.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

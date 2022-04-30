@@ -14,3 +14,12 @@ D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadePro
 D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\obj\Debug\net5.0\ref\FacadeProject.dll
 D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\obj\Debug\net5.0\FacadeProject.pdb
 D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\obj\Debug\net5.0\FacadeProject.genruntimeconfig.cache
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\Auth0.AspNetCore.Authentication.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\epc\Ap-Sem3\Web Application Development\Core Projects\MVCSystemDemo\FacadeProject\obj\Debug\net5.0\FacadeProject.csproj.CopyComplete

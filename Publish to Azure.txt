@@ -1,0 +1,2 @@
+1. Sign in Azure for Student
+2. Project -> Build -> Publish... -> 

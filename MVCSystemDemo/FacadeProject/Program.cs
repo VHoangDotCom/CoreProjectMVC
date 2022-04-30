@@ -10,7 +10,7 @@ namespace FacadeProject
             Mortgage mortgage = new Mortgage();
             // Evaluate mortgage eligibility for customer
             Customer customer = new Customer("Ann McKinsey");
-            bool eligible = mortgage.IsEligible(customer, 125000);
+            bool eligible = mortgage.IsEligible(customer, 1200000);
             Console.WriteLine("\n" + customer.Name +
                     " has been " + (eligible ? "Approved" : "Rejected"));
             // Wait for user
@@ -67,6 +67,7 @@ namespace FacadeProject
     /// </summary>
     public class Mortgage
     {
+        //the chap
         Bank bank = new Bank();
         Loan loan = new Loan();
         Credit credit = new Credit();
@@ -78,14 +79,17 @@ namespace FacadeProject
             // Check creditworthyness of applicant
             if (!bank.HasSufficientSavings(cust, amount))
             {
+                //ko du tien tiet kiem
                 eligible = false;
             }
             else if (!loan.HasNoBadLoans(cust))
             {
+                //khoan vay
                 eligible = false;
             }
             else if (!credit.HasGoodCredit(cust))
             {
+                //tin dung nat
                 eligible = false;
             }
             return eligible;
